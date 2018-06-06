@@ -2,6 +2,8 @@
 /* global process, global */
 'use strict'
 
+require('dotenv').config() //adding this to require debug, in .env.default file - ER
+
 var Y = require('yjs')
 
 Y.debug.log = console.log.bind(console)
