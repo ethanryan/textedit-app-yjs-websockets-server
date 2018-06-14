@@ -14,5 +14,8 @@
     "dotenv": "^6.0.0",
     "supports-color": "^5.4.0",
     "y-websockets-server": "^9.2.1"
+  },
+  "engines": {
+    "node": "9.11.1"
   }
 }
